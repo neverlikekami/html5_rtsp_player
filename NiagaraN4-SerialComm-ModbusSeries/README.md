@@ -1,4 +1,4 @@
-# niagaraN4-serialComm-rs485-modbus
+# NiagaraN4-SerialComm-ModbusSeries
 
 Niagara N4.13 Supervisor(Windows)에서 USB-RS485(COM Port) 기반 **Modbus RTU 통신**을 수행하고,
 옵션으로 **ModbusTCP 브리지**를 지원하기 위한 독립 마스터 프로젝트입니다.
@@ -6,7 +6,7 @@ Niagara N4.13 Supervisor(Windows)에서 USB-RS485(COM Port) 기반 **Modbus RTU 
 ## 프로젝트 구조
 
 ```text
-niagaraN4-serialComm-rs485-modbus/
+NiagaraN4-SerialComm-ModbusSeries/
   README.md
   .gitignore
   vendor/
@@ -22,12 +22,12 @@ niagaraN4-serialComm-rs485-modbus/
 
 Niagara SDK/Baja 라이브러리는 아래 경로에 업로드하세요.
 
-- `niagaraN4-serialComm-rs485-modbus/vendor/niagara/4.13/`
+- `NiagaraN4-SerialComm-ModbusSeries/vendor/niagara/4.13/`
 
 예시:
 
 ```text
-niagaraN4-serialComm-rs485-modbus/vendor/niagara/4.13/
+NiagaraN4-SerialComm-ModbusSeries/vendor/niagara/4.13/
   modules/
     baja.jar
     nre.jar
@@ -45,4 +45,4 @@ niagaraN4-serialComm-rs485-modbus/vendor/niagara/4.13/
 
 ## 참고
 
-기존 `html5_rtsp_player`와 분리된 도메인 작업을 위해 이 폴더를 새로운 마스터 기준으로 사용합니다.
+기존 `html5_rtsp_player` 영역에서 분리해 `NiagaraN4-SerialComm-ModbusSeries`를 새로운 마스터 기준으로 사용합니다.
