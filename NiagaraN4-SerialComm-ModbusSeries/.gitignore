@@ -1,0 +1,7 @@
+# Vendor binaries (usually not committed)
+vendor/niagara/
+
+# Build outputs
+**/build/
+**/out/
+**/*.class
